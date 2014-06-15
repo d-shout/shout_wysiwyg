@@ -15,7 +15,7 @@
 // IMPORTANT!!! Do not remove uncommented settings in this file even if
 // you are using session configuration.
 // See http://kcfinder.sunhater.com/install for setting descriptions
-//echo $_SERVER['DOCUMENT_ROOT']; exit();
+
 $_CONFIG = array(
 
 
@@ -23,7 +23,6 @@ $_CONFIG = array(
 
     'disabled' => false,
     'theme' => "oxygen",
-    //'uploadURL' => 'http://' . $_SERVER['SERVER_NAME'] . ($_SERVER['SERVER_PORT'] != 80 ? ':' . $_SERVER['SERVER_PORT'] : '') .  "/files",
     'uploadURL' => "/files",
     'uploadDir' => $_SERVER['DOCUMENT_ROOT'] . "/files",
 
